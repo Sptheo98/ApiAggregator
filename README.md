@@ -83,10 +83,15 @@ Parameters:
 - date (string) – Optional: Date filter for news and weather data (format: YYYY-MM-DD).
 
 A simple example could be this :
+
 latitude : 22
+
 longitude : 22
+
 coinId: tether
+
 topic: sports
+
 date: 2024-09-012
 
 date is optional, you can leave it empty .
