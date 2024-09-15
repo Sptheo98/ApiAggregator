@@ -11,7 +11,9 @@ Also the users can download the generated json file with the aggregated data.
 This service aggregates data from multiple external APIs, including:
 
 Weather Data: Using Open-Meteo API.
+
 News Data: Using Mediastack API.
+
 Cryptocurrency Data: Using CoinGecko API.
 
 
