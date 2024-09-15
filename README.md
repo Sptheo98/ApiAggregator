@@ -19,7 +19,7 @@ Cryptocurrency Data: Using CoinGecko API.
 
 Features:
 ==========================================
-- Fetches current weather based on geographic coordinates (latitude and longitude) , can also apply an optional date filter.
+- Fetches current weather based on geographic coordinates (latitude and longitude - only integers) , can also apply an optional date filter.
 - Retrieves news articles on a given topic, with an optional date filter.
 - Fetches cryptocurrency information such as current price, market cap, and volume for a given coin.
 
@@ -76,8 +76,8 @@ If you press it you should be able to see some fields you have to fill with para
 
 Parameters:
 -----------
-- latitude (double) – Required: Latitude of the location for weather data.
-- longitude (double) – Required: Longitude of the location for weather data.
+- latitude (int from -90 to 90) – Required: Latitude of the location for weather data.
+- longitude (int from -90 to 90) – Required: Longitude of the location for weather data.
 - coinId (string) – Required: The ID of the cryptocurrency (e.g., "bitcoin").
 - topic (string) – Required: The topic for news (e.g., "technology").
 - date (string) – Optional: Date filter for news and weather data (format: YYYY-MM-DD).
