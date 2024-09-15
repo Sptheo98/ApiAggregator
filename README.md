@@ -95,6 +95,8 @@ topic: sports
 date: 2024-09-012
 
 date is optional, you can leave it empty .
+Also , for now , you cant use numbers with decimal parts as latitude and longitude , because it will generate an error.
+Keep the latitude and longitude as integers.
 
 if you fill them (without date) and press execute you should see this :
 Example Request:
