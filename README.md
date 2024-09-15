@@ -82,7 +82,16 @@ Parameters:
 - topic (string) – Required: The topic for news (e.g., "technology").
 - date (string) – Optional: Date filter for news and weather data (format: YYYY-MM-DD).
 
-if you fill them and press execute you should see this :
+A simple example could be this :
+latitude : 22
+longitude : 22
+coinId: tether
+topic: sports
+date: 2024-09-012
+
+date is optional, you can leave it empty .
+
+if you fill them (without date) and press execute you should see this :
 Example Request:
   'http://localhost:5000/api/Aggregate?latitude=22&longitude=22&coinId=tether&topic=sports' \
 
