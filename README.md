@@ -47,15 +47,19 @@ Steps to Run:
 5. Run the project: `dotnet run`
 
 If everything is set up correctly , you will get his message in your terminal :
+
 Building...
 info: Microsoft.Hosting.Lifetime[14]
       Now listening on: http://localhost:5000
+      
 info: Microsoft.Hosting.Lifetime[0]
       Application started. Press Ctrl+C to shut down.
 info: Microsoft.Hosting.Lifetime[0]
+
       Hosting environment: Development
 info: Microsoft.Hosting.Lifetime[0]
-      Content root path: C:\Users\akrida\ApiAggregator
+
+      Content root path: C:\Users\ApiAggregator
 
 the localhost port might be different .
 
