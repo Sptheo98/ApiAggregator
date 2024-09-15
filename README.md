@@ -29,6 +29,7 @@ How to Run the Project:
 Prerequisites:
 --------------
 .NET SDK 6.0+ or later
+
 API keys for:
 
 Mediastack
