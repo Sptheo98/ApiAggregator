@@ -28,8 +28,11 @@ Prerequisites:
 --------------
 .NET SDK 6.0+ or later
 API keys for:
+
 Mediastack
+
 CoinGecko
+
 Open-Meteo: No API key required
 
 Steps to Run:
