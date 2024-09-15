@@ -1,5 +1,5 @@
 ASP.NET Core Web API that fetches and combines selected data from multiple external API sources
-==========================================
+=====================================
 Project Name: API Aggregator
 ==========================================
 Description:
@@ -14,14 +14,14 @@ Weather Data: Using Open-Meteo API.
 News Data: Using Mediastack API.
 Cryptocurrency Data: Using CoinGecko API.
 
-==========================================
+=====================================
 Features:
 ==========================================
 - Fetches current weather based on geographic coordinates (latitude and longitude) , can also apply an optional date filter.
 - Retrieves news articles on a given topic, with an optional date filter.
 - Fetches cryptocurrency information such as current price, market cap, and volume for a given coin.
 
-==========================================
+=====================================
 How to Run the Project:
 ==========================================
 Prerequisites:
@@ -54,7 +54,7 @@ info: Microsoft.Hosting.Lifetime[0]
 the localhost port might be different .
 
 
-==========================================
+=====================================
 Access the API:
 ==========================================
 Once the app is running, you can access it via a browser by typing in the URL bar : http://localhost:5000/swagger
@@ -83,7 +83,7 @@ Example server Response:
   "weather": { ... }
 }
 
-==========================================
+=====================================
 Project Structure:
 ==========================================
 - /Controllers: Contains the AggregateController, which handles the API requests.
@@ -91,11 +91,11 @@ Project Structure:
 - /Models: Contains the models that represent the structure of the external API responses and the aggregated data.
 
 Error Handling:
-==========================================
+=====================================
 - 400 BadRequest: If required parameters are missing or invalid.
 - 500 InternalServerError: If an error occurs while fetching data from any of the external services.
 
-==========================================
+=====================================
 Dependencies and External APIs:
 ==========================================
 - External APIs:
